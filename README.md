@@ -13,6 +13,7 @@ Features:
 >registry persistence
 >upload and download files
 >undetectable
+>screenshot
 ``` 
 
 

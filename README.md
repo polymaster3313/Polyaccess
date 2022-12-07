@@ -25,7 +25,8 @@ Features:
 ```
 1. edit the host and the port for the listener.py and the backdoor.py
 2. and then "compile" the backdoor.py and the keylogger.py using pyinstaller to create a payload
-3. start the listener.py on your target machine and execute the payload on your target machine
+3. if virustotal still detects it, then use shellter to obfuscate it 
+4. start the listener.py on your target machine and execute the payload on your target machine
 ```
 
 Evading Bitdefender example:

@@ -15,11 +15,10 @@ Features:
 >grab chrome passwords
 >registry persistence
 >upload and download files
->undetectable
+>undetectable 
 >screenshot
+
 ``` 
-
-
 **How to use?**
 
 ```
@@ -31,8 +30,11 @@ Features:
 plain python detection:
 ![image](https://user-images.githubusercontent.com/93959737/206237397-bc30953a-4062-448f-9664-4bf230d1a2e9.png)
 
+***Note: For those braindead people , the plain obfuscated python file is non detectable , however depending on how you convert the python code to an exe, the exe may not be fully undetectable***
 
-exe detection (
+python to exe detection (nuitka):
+![image](https://user-images.githubusercontent.com/93959737/206857089-22a2608a-4d88-4217-af74-958e080dfb56.png)
+
 
 Evading Bitdefender example:
 

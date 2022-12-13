@@ -2,7 +2,7 @@
 
 
 
-Malware created with python
+Malware and listener created with python
 
 **still under development**
 

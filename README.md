@@ -17,7 +17,8 @@ Features:
 >upload and download files
 >undetectable 
 >screenshot
-
+>checkprivilege
+>grab discord token(through webhook)
 ``` 
 **How to use?**
 

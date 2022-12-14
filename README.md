@@ -23,8 +23,8 @@ Features:
 
 ```
 1. edit the host and the port for the listener.py and the backdoor.py
-2. go to https://pyobfuscate.com/ and obfuscate the code for the backdoor.py and the keylogger.py (Dont convert the obfuscated code to exe)
-3. and then "compile" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create a payload
+2. install the requirements.txt using "pip3 install -r requirements.txt"
+3. and then "compile" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create the payload
 4. start the listener.py on your target machine and execute the payload on your target machine
 ```
 

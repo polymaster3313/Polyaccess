@@ -1,8 +1,7 @@
 # PolyAccess
 
+!low-profile malware made in python
 
-
-Malware and listener created with python
 
 **still under development**
 

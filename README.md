@@ -3,6 +3,9 @@
 <small>low-profile malware made in python</small>
 
 
+
+
+
 **still under development**
 
 
@@ -34,7 +37,7 @@ C2 listener
 1. edit the host and the port for the listener.py and the backdoor.py
 optional: put your webhook in the discord.py file to recieve discord token
 2. install the requirements.txt using "pip3 install -r requirements.txt"
-3. and then "compile" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create the payload
+3. and then "build" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create the payload
 4. start the listener.py on your target machine and execute the payload on your victime machine
 ```
 
@@ -53,17 +56,6 @@ python to exe detection (nuitka):
 Evading Bitdefender example:
 
 
-https://user-images.githubusercontent.com/93959737/206185600-5bd25ab3-97e6-4434-a735-d2735476a24d.mp4
+https://user-images.githubusercontent.com/93959737/206185600-5bd25ab3-97e6-4434-a735-d2735476a24d.mp
 
 
-
-
-
-.
-
-
-.
-
-.
-***join my discord for more enquiries***
-https://discord.gg/3R3BaDrTPK

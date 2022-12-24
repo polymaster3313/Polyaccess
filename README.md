@@ -28,6 +28,7 @@ Update
 >fixed a bug with the keylogger feature
 >fixed a bug where chromegrab crashes when target dont have chrome installed
 >added screenshare between target and client(may be buggy for linux users)
+>grab wifi password
 ```
 
 Upcoming features:

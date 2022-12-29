@@ -2,7 +2,7 @@
 
 <small>low-profile malware made in python</small>
 
-**for educational purposes only**
+***for educational purposes only***
 
 
 

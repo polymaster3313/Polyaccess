@@ -34,7 +34,6 @@ Update
 
 Upcoming features:
 ```
-grab wifi passwords
 grab windows product key
 privilege escalation technique
 C2 listener

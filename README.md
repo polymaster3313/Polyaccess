@@ -67,4 +67,5 @@ Evading Bitdefender example:
 
 https://user-images.githubusercontent.com/93959737/206185600-5bd25ab3-97e6-4434-a735-d2735476a24d.mp
 
-
+Discord server for enquiries:
+https://discord.gg/3R3BaDrTPK

@@ -56,7 +56,7 @@ NOTE: if you are building on windows 11, windows 11 defender might detect and pr
 ```
 
 python to exe detection (nuitka):
-![image](https://user-images.githubusercontent.com/93959737/206857089-22a2608a-4d88-4217-af74-958e080dfb56.png)
+![image](https://user-images.githubusercontent.com/93959737/218252308-fc080a70-c2df-401a-b6ff-99dac0bd9abe.png)
 
 
 Evading Bitdefender example:

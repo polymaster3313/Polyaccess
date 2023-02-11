@@ -33,8 +33,8 @@ Update
 
 Upcoming features:
 ```
-privilege escalation technique
 play sound in background
+AES encryption tunneling
 ```
 
 **How to use?**

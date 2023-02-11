@@ -26,17 +26,13 @@ Features:
 
 Update
 ```
->fixed a bug with the keylogger feature
->fixed a bug where chromegrab crashes when target dont have chrome installed
->added screenshare between target and client(may be buggy for linux users)
->grab wifi password
+>added checkporn feature which check the PC for visited porn websites using dns (able to send log through discordwebhook)
 ```
 
 Upcoming features:
 ```
-grab windows product key
 privilege escalation technique
-C2 server that accpets multiple connection
+play sound in background
 ```
 
 **How to use?**

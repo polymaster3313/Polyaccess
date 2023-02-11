@@ -42,8 +42,7 @@ C2 server that accpets multiple connection
 **How to use?**
 
 ```
-1. edit the host and the port for the listener.py and the backdoor.py
-optional: put your webhook in the discord.py file to recieve discord token
+1. edit the host and the port in the config.py
 
 
 

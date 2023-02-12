@@ -61,9 +61,7 @@ python to exe detection (nuitka):
 
 Evading Bitdefender example:
 
-
-https://user-images.githubusercontent.com/93959737/206185600-5bd25ab3-97e6-4434-a735-d2735476a24d.mp
-
+https://www.youtube.com/watch?v=iqlV4gZxqIw&t=2s
 
 
 

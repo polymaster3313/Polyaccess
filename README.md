@@ -47,7 +47,7 @@ AES encryption tunneling
 2. install the requirements.txt using "pip3 install -r requirements.txt"
 
 
-3. and then "build" the backdoor.py using pyinstaller or nuitka (you can run the builder.py to build it with pyinstaller)
+3. and then "build" the backdoor.py using pyinstaller or nuitka
 NOTE: if you are building on windows 11, windows 11 defender might detect and prevent the building process, so it is adviced that you stop windows defender, however the payload generated will still be undetectable
 
 

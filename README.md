@@ -9,6 +9,7 @@
 
 **still under development**
 
+*only capable on windows*
 
 Features:
 
@@ -33,6 +34,7 @@ Update
 
 Upcoming features:
 ```
+compatible with unix systems
 play sound in background
 AES encryption tunneling
 ```

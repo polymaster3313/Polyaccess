@@ -19,16 +19,16 @@ Features:
 >grab chrome passwords
 >registry persistence
 >upload and download files
->undetectable (almost)
+>undetectable
 >screenshot
 >checkprivilege
->grab discord token(through webhook)
+>grab discord token
 >checkporn
 ``` 
 
 Update
 ```
->added checkporn feature which check the PC for visited porn websites using dns (able to send log through discordwebhook)
+>added checkporn feature which check the PC for visited porn websites using dns
 ```
 
 Upcoming features:

@@ -23,7 +23,6 @@ Features:
 >screenshot
 >checkprivilege
 >grab discord token(through webhook)
->screenshare
 >checkporn
 ``` 
 

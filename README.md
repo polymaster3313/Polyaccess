@@ -24,11 +24,12 @@ Features:
 >checkprivilege
 >grab discord token
 >checkporn
+>block website
 ``` 
 
 Update
 ```
->added checkporn feature which check the PC for visited porn websites using dns
+>blocksite feature that blocks website. edit the target website to be blocked in the config.py
 ```
 
 Upcoming features:

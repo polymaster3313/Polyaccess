@@ -25,11 +25,13 @@ Features:
 >grab discord token
 >checkporn
 >block website
+>gets system information
 ``` 
 
 Update
 ```
 >blocksite feature that blocks website. edit the target website to be blocked in the config.py
+
 ```
 
 Upcoming features:

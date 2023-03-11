@@ -36,7 +36,6 @@ Update
 
 Upcoming features:
 ```
-compatible with unix systems
 play sound in background
 AES encryption tunneling
 ```

@@ -31,6 +31,7 @@ Features:
 Update
 ```
 >blocksite feature that blocks website. edit the target website to be blocked in the config.py
+>encrypt and decrypt file using Fernet
 ```
 
 Upcoming features:

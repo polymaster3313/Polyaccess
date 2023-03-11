@@ -25,13 +25,13 @@ Features:
 >checkporn
 >block website
 >gets system information
->encrypt and decrypt file
+>encrypt and decrypt files 
 ``` 
 
 Update
 ```
 >blocksite feature that blocks website. edit the target website to be blocked in the config.py
->encrypt and decrypt file using Fernet
+>encrypt and decrypt file using Fernet (AES 128 + padded with PKCS7)
 ```
 
 Upcoming features:

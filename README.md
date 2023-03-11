@@ -22,10 +22,10 @@ Features:
 >undetectable
 >screenshot
 >checkprivilege
->grab discord token
 >checkporn
 >block website
 >gets system information
+>encrypt and decrypt file
 ``` 
 
 Update

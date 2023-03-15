@@ -32,7 +32,7 @@ Features:
 Update
 ```
 weak service path
-Alwaysinstallelevated check
+Check Always install elevated
 ```
 
 Upcoming features:

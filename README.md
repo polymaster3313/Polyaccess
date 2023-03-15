@@ -31,8 +31,9 @@ Features:
 
 Update
 ```
-weak service path
-Check Always install elevated
+Privilege escalation:
+  weak service path
+  Check Always install elevated
 ```
 
 Upcoming features:

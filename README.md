@@ -26,12 +26,13 @@ Features:
 >block website
 >gets system information
 >encrypt and decrypt files 
+>privilege escalation
 ``` 
 
 Update
 ```
->blocksite feature that blocks website. edit the target website to be blocked in the config.py
->encrypt and decrypt file using Fernet (AES 128 + padded with PKCS7)
+weak service path
+Alwaysinstallelevated check
 ```
 
 Upcoming features:

@@ -37,6 +37,8 @@ Upcoming features:
 ```
 play sound in background
 AES encryption tunneling
+add clipboard logs 
+clean up
 ```
 
 **How to use?**

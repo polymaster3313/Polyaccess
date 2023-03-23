@@ -65,7 +65,8 @@ Evading Bitdefender example:
 
 https://www.youtube.com/watch?v=iqlV4gZxqIw&t=2s
 
-
+PolyC2 demonstration:
+https://www.youtube.com/watch?v=Duf53TVVqrg
 
 
 Discord server for enquiries:

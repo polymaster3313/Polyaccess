@@ -56,7 +56,7 @@ NOTE: if you are building on windows 11, windows 11 defender might detect and pr
 
 
 
-4. start the C2.py on your machine and execute the payload on the target machine
+4. start the PolyC2.py on your machine and execute the payload on the target machine
 ```
 
 python to exe detection (nuitka):

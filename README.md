@@ -1,6 +1,6 @@
 # PolyC2
 
-<small>low-profile C2 and malware made in python</small>
+<small>low-profile C2 and RAT made in python</small>
 
 ***for educational purposes only***
 

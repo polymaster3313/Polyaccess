@@ -24,21 +24,20 @@ Features:
 >gets system information
 >encrypt and decrypt files 
 >privilege escalation
+>copy clipboard content
+>screenshare
 ``` 
 
 Update
 ```
-Privilege escalation:
-  weak service path
-  Check Always install elevated
+streaming with client and server
 ```
 
 Upcoming features:
 ```
 play sound in background
 AES encryption tunneling
-add clipboard logs 
-clean up
+makes the code more efficient
 ```
 
 **How to use?**

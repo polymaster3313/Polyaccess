@@ -2,6 +2,9 @@
 
 <small>low-profile C2 and RAT made in python</small>
 
+![Logo](https://user-images.githubusercontent.com/93959737/227761826-787b75d8-5858-480d-bd15-be72fb5163ff.png)
+
+
 ***for educational purposes only***
 
 

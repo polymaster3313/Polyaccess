@@ -35,9 +35,7 @@ streaming with client and server
 
 Upcoming features:
 ```
-play sound in background
 AES encryption tunneling
-makes the code more efficient
 ```
 
 **How to use?**

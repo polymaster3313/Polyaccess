@@ -5,7 +5,6 @@
 ***for educational purposes only***
 
 
-
 *only capable on windows*
 
 Features:
@@ -61,6 +60,7 @@ NOTE: if you are building on windows 11, windows 11 defender might detect and pr
 
 python to exe detection (nuitka):
 ![image](https://user-images.githubusercontent.com/93959737/222945408-82b23489-eda3-4b32-b3cd-4f3498683d22.png)
+![image](https://user-images.githubusercontent.com/93959737/227819565-e770a928-0f1e-4cd7-823d-67f08948a68b.png)
 
 
 Evading Bitdefender example:

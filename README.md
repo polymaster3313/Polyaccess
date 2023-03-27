@@ -25,7 +25,7 @@ Features:
 >encrypt and decrypt files 
 >privilege escalation
 >copy clipboard content
->AES encryption tunneling
+>256 bit AES encryption tunneling
 >screenshare
 ``` 
 

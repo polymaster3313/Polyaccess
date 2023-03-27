@@ -30,12 +30,12 @@ Features:
 
 Update
 ```
-streaming with client and server
+>256 bit AES encryption tunneling
 ```
 
 Upcoming features:
 ```
-AES encryption tunneling
+anti-debugging
 ```
 
 **How to use?**

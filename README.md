@@ -44,14 +44,14 @@ anti-debugging
 
 
 ```
-1. edit the host and the port in the config.py
+1. edit configurations in config.py
 
 
 
-2. install the requirements.txt using "pip3 install -r requirements.txt"
+2. install the modules using "pip3 install -r requirements.txt"
 
 
-3. and then "build" the backdoor.py using pyinstaller or nuitka
+3. and then "build" the backdoor.py using pyinstaller or nuitka (recommended pyinstaller)
 NOTE: if you are building on windows 11, windows 11 defender might detect and prevent the building process, so it is adviced that you stop windows defender, however the payload generated will still be undetectable
 
 

@@ -56,7 +56,14 @@ NOTE: if you are building on windows 11, windows 11 defender might detect and pr
 
 
 4. start the PolyC2.py on your machine and execute the payload on the target machine
+
 ```
+
+
+**How it works:**
+
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/93959737/227842545-05f3a8ed-c946-49d5-bea3-60ccd8cffc8b.png)
+
 
 python to exe detection (nuitka):
 ![image](https://user-images.githubusercontent.com/93959737/222945408-82b23489-eda3-4b32-b3cd-4f3498683d22.png)

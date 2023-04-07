@@ -6,6 +6,7 @@
 
 
 *only capable on windows*
+*must be python 3.10 and above*
 
 Features:
 

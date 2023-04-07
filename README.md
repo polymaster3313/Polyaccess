@@ -12,7 +12,6 @@ Features:
 ```
 >Remote Access through shell
 >keglogging
->grab chrome passwords
 >registry persistence
 >upload and download files
 >undetectable
@@ -25,7 +24,7 @@ Features:
 >privilege escalation
 >copy clipboard content
 >256 bit AES encryption tunneling
->screenshare
+>encrypted payload generator
 ``` 
 
 Update

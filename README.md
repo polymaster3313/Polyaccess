@@ -70,6 +70,10 @@ Evading Bitdefender example:
 
 https://www.youtube.com/watch?v=iqlV4gZxqIw&t=2s
 
+PolyC2 setup:
+https://youtu.be/ZHbBuLTmJT4
+
+
 PolyC2 demonstration:
 https://www.youtube.com/watch?v=Duf53TVVqrg
 

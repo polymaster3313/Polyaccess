@@ -6,7 +6,7 @@
 
 *must be python 3.10 and above*
 
-Features:
+### Features:
 
 ```
 >Remote Access through shell
@@ -59,7 +59,7 @@ anti-debugging
 
 
 
-**How it works:**
+## **How it works:**
 
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/93959737/227842545-05f3a8ed-c946-49d5-bea3-60ccd8cffc8b.png)
 

@@ -41,8 +41,8 @@ anti-debugging
 
 
 ```
-1. edit configurations in config.py
-
+1. install python and add python to path
+https://www.python.org/downloads/release/python-31010/
 
 
 2. install the modules using "pip3 install -r requirements.txt"
@@ -51,7 +51,10 @@ anti-debugging
 3. Run control.py and **run the startup first then build**
 
 
-4. start the PolyC2.py on your machine and execute the payload on the target machine
+4. start the PolyC2.py on your machine and execute the payload generated on the target machine
+
+
+**there are more configurations in the config.py**
 
 ```
 

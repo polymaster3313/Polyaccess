@@ -42,10 +42,11 @@ anti-debugging
 
 1. install python and add python to path
 
-[python 3.10 download link](https://www.python.org/downloads/release/python-31010/)
+ [python 3.10 download link](https://www.python.org/downloads/release/python-31010/)
 
 
-2. install the modules using "pip3 install -r requirements.txt"
+2. install the modules using 
+```pip3 install -r requirements.txt```
 
 
 3. Run control.py and **run the startup first then build**

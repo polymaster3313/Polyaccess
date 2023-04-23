@@ -40,7 +40,6 @@ anti-debugging
 
 
 
-```
 1. install python and add python to path
 
 [python 3.10 download link](https://www.python.org/downloads/release/python-31010/)
@@ -57,7 +56,6 @@ anti-debugging
 
 **there are more configurations in the config.py**
 
-```
 
 
 **How it works:**

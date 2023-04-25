@@ -42,7 +42,7 @@ anti-debugging
 
 1. install python and add python to path
 
- [python 3.10 download link](https://www.python.org/downloads/release/python-31010/)
+ [python 3.11 download link](https://www.python.org/downloads/release/python-3113/)
 
 
 2. install the modules using 

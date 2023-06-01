@@ -13,4 +13,4 @@ sudo apt install python3.11-pip
 cd malware
 
 # Install the requirements using pip
-pip3 install -r requirements.txt
+pip install -r requirements.txt

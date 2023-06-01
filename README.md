@@ -37,9 +37,16 @@ Upcoming features:
 anti-debugging
 ```
 
-## **How to use?**
+## **How to install**
+
+## **kali linux** 
+
+1. sudo chmod +x  kali_install.sh
+
+2. ./kali_install.sh 
 
 
+## **other distros**
 
 1. install python and add python to path
 
@@ -49,6 +56,7 @@ anti-debugging
 2. install the modules using 
 ```pip3 install -r requirements.txt```
 
+## **How to use?**
 
 3. Run control.py and **run the startup first then build**
 

@@ -45,6 +45,8 @@ anti-debugging
 
 2. ./kali_install.sh 
 
+## **other distros**
+
 1. install python and add python to path
 
  [python 3.11 download link](https://www.python.org/downloads/release/python-3113/)

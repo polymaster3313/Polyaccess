@@ -39,7 +39,11 @@ anti-debugging
 
 ## **How to use?**
 
+## **kali linux** 
 
+1. sudo chmod +x  kali_install.sh
+
+2. ./kali_install.sh 
 
 1. install python and add python to path
 

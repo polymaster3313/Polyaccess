@@ -9,11 +9,12 @@
 ### Features:
 
 ```
->Remote Access through shell
+>reverse shell
 >keglogging
 >registry persistence
 >upload and download files
->undetectable
+>undetectable to most AV vendors
+>bypasses windows 10/11 security
 >screenshot
 >checkprivilege
 >checkporn
@@ -23,7 +24,7 @@
 >privilege escalation
 >copy clipboard content
 >256 bit AES encryption tunneling
->encrypted payload generator
+>encrypted payload generation
 ``` 
 
 Update

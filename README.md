@@ -13,10 +13,11 @@
 >keglogging
 >registry persistence
 >upload and download files
->undetectable
+>undetectable to AV vendors
 >screenshot
 >checkprivilege
 >checkporn
+>bypasses windows 10/11 defender
 >block website
 >gets system information
 >encrypt and decrypt files 

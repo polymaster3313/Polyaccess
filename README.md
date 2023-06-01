@@ -54,7 +54,7 @@ anti-debugging
 
 
 2. install the modules using 
-```pip3 install -r requirements.txt```
+```pip install -r requirements.txt```
 
 ## **How to use?**
 

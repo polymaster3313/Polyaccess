@@ -10,7 +10,6 @@ sudo apt install python3.11
 sudo apt install python3.11-pip
 
 # change into requirements dir
-
 cd malware
 
 # Install the requirements using pip

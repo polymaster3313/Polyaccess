@@ -17,7 +17,7 @@
 >bypasses windows 10/11 security
 >screenshot
 >checkprivilege
->checkporn
+>checkporn (through dns records)
 >block website
 >gets system information
 >encrypt and decrypt files 
@@ -25,16 +25,20 @@
 >copy clipboard content
 >256 bit AES encryption tunneling
 >encrypted payload generation
+>modules
+>decrypt chrome passwords
 ``` 
 
 Update
 ```
->256 bit AES encryption tunneling
+>Modules
+>Shell with timeout
 ```
 
 Upcoming features:
 ```
-anti-debugging
+auto-enumeration
+powershell support for modules
 ```
 
 ## **How to install**

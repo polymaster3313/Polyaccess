@@ -25,8 +25,8 @@
 >copy clipboard content
 >256 bit AES encryption tunneling
 >encrypted payload generation
->modules
->decrypt chrome passwords
+>decrypt chrome passwords (module)
+>discord token logger (module)
 ``` 
 
 Update

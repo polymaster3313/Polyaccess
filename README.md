@@ -22,6 +22,8 @@
 >gets system information
 >encrypt and decrypt files 
 >privilege escalation
+-weak service path
+-alwaysinstallelevated
 >copy clipboard content
 >256 bit AES encryption tunneling
 >encrypted payload generation

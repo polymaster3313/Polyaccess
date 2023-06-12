@@ -93,7 +93,7 @@ https://youtu.be/ZHbBuLTmJT4
 
 
 PolyC2 demonstration:
-https://www.youtube.com/watch?v=Duf53TVVqrg
+https://youtu.be/HQEc6uujZX0
 
 
 Discord server for enquiries:

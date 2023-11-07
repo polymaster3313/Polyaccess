@@ -1,10 +1,11 @@
-# PROJECT HAS BEEN DISCONTINUED
-
-
-
 ![Logo](https://user-images.githubusercontent.com/93959737/227761863-3b2efb48-5933-4eb1-9442-1b3855594855.png)
 
 <small>low-profile C2 and RAT made in python</small>
+
+
+# PROJECT HAS BEEN DISCONTINUED
+thank you for the support
+
 
 ***for educational purposes only***
 

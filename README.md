@@ -4,7 +4,7 @@
 
 
 # PROJECT HAS BEEN DISCONTINUED
-thank you for the support
+## thank you for the support
 
 
 ***for educational purposes only***

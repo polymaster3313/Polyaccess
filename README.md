@@ -1,3 +1,7 @@
+# PROJECT HAS BEEN DISCONTINUED
+
+
+
 ![Logo](https://user-images.githubusercontent.com/93959737/227761863-3b2efb48-5933-4eb1-9442-1b3855594855.png)
 
 <small>low-profile C2 and RAT made in python</small>
@@ -5,6 +9,7 @@
 ***for educational purposes only***
 
 *must be python 3.10 and above*
+
 
 ### Features:
 
